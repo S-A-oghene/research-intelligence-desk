@@ -1,0 +1,134 @@
+{
+  "question": "Which project management system would best support a small remote executive team that needs clear task ownership, executive visibility, collaboration, documentation, and workflow automation?",
+  "discovery": {
+    "sources": [
+      {
+        "title": "Asana Projects",
+        "type": "official_product_documentation",
+        "url": "https://asana.com/features/project-management/projects",
+        "date": "2026-08-24",
+        "note": "Asana supports tasks, project views, custom fields, rules, forms, status updates, and reporting dashboards. It also supports list, calendar, timeline, Gantt, and Kanban views."
+      },
+      {
+        "title": "Asana Reporting Dashboards",
+        "type": "official_product_documentation",
+        "url": "https://help.asana.com/s/article/reporting-with-dashboards",
+        "date": "2026-08-24",
+        "note": "Asana provides project, portfolio, and universal reporting dashboards designed to give teams and executives a consolidated view of project progress and performance."
+      },
+      {
+        "title": "Asana Starter Features",
+        "type": "official_product_documentation",
+        "url": "https://help.asana.com/s/article/learn-about-asana-starter-features",
+        "date": "2026-08-24",
+        "note": "Asana documents integrations with Google Workspace, Microsoft 365, Slack and other tools, along with rules, forms, task dependencies, custom fields, and reporting."
+      },
+      {
+        "title": "Notion Projects",
+        "type": "official_product_documentation",
+        "url": "https://www.notion.com/product/projects",
+        "date": "2026-08-24",
+        "note": "Notion combines project management with connected documentation, databases, timelines, tasks, dependencies, and customizable project information."
+      },
+      {
+        "title": "Notion Databases",
+        "type": "official_product_documentation",
+        "url": "https://www.notion.com/help/intro-to-databases",
+        "date": "2026-08-24",
+        "note": "Notion databases allow teams to organize information using customizable properties and multiple views including table, board, calendar, timeline, and chart."
+      },
+      {
+        "title": "Notion Tasks and Dependencies",
+        "type": "official_product_documentation",
+        "url": "https://www.notion.com/help/tasks-and-dependencies",
+        "date": "2026-08-24",
+        "note": "Notion supports sub-items and task dependencies, including automatic date shifting when dependent tasks change."
+      },
+      {
+        "title": "Linear Features",
+        "type": "official_product_documentation",
+        "url": "https://linear.app/features",
+        "date": "2026-08-24",
+        "note": "Linear focuses on modern product development, with capabilities covering planning, projects, issue tracking, cycle planning, insights, customer requests, and AI-powered workflows."
+      },
+      {
+        "title": "Linear Slack Integration",
+        "type": "official_product_documentation",
+        "url": "https://linear.app/integrations/slack",
+        "date": "2026-08-24",
+        "note": "Linear integrates closely with Slack, allowing users to create issues from Slack, synchronize conversations, receive notifications, and update issues from Slack."
+      }
+    ],
+    "key_findings": [
+      "Asana provides the strongest executive-oriented project visibility of the three, with dashboards, portfolio reporting, custom fields, status updates, and multiple project views.",
+      "Asana is well suited to cross-functional teams because its workflow covers task ownership, deadlines, dependencies, reporting, forms, automation, and integrations.",
+      "Notion is the strongest option when documentation and project information need to live together. Its databases, pages, timelines, dependencies, and customizable views provide significant flexibility.",
+      "Notion requires more workspace design and configuration because teams can build their own workflows rather than adopting a more structured project-management system.",
+      "Linear is highly capable for product and engineering teams, particularly where issue tracking, cycles, roadmaps, and development workflows are central.",
+      "Linear's Slack integration is strong, but its product positioning is primarily around product development rather than general executive administration.",
+      "For a small remote executive team, executive reporting and cross-functional coordination are more important than specialized software-development workflows."
+    ]
+  },
+  "options": [
+    {
+      "name": "Asana",
+      "pros": [
+        "Strong executive reporting and dashboards",
+        "Clear task ownership and deadlines",
+        "Multiple project views including timeline and Gantt",
+        "Workflow automation and custom fields",
+        "Strong cross-functional collaboration",
+        "Integrations with Slack and productivity tools"
+      ],
+      "cons": [
+        "Some advanced reporting capabilities require higher-tier plans",
+        "Less flexible than Notion for building a fully customized knowledge system",
+        "Can introduce more structure than a very small team may initially need"
+      ]
+    },
+    {
+      "name": "Notion",
+      "pros": [
+        "Excellent documentation and knowledge management",
+        "Highly customizable databases and workflows",
+        "Projects, tasks, documentation, and meeting information can coexist",
+        "Supports timelines, dependencies, multiple views, and automation",
+        "Strong flexibility for evolving team processes"
+      ],
+      "cons": [
+        "Requires more initial workspace design",
+        "Highly flexible systems can become inconsistent without governance",
+        "Executive reporting is less purpose-built than Asana's dashboard approach"
+      ]
+    },
+    {
+      "name": "Linear",
+      "pros": [
+        "Excellent issue and project tracking",
+        "Strong product-development workflows",
+        "Fast and structured workflow",
+        "Strong Slack integration",
+        "Useful insights and planning capabilities"
+      ],
+      "cons": [
+        "Primarily designed around product and software development",
+        "Less suitable for general executive administration",
+        "May introduce unnecessary technical structure for a non-engineering executive team"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Actual user adoption and satisfaction within the specific executive team being evaluated",
+    "Total cost based on the team's required plan and number of users",
+    "How well each platform fits the team's existing Google Workspace, Gmail, Slack, and other workflows",
+    "Whether the team prioritizes centralized documentation enough to justify choosing Notion over a dedicated project-management platform",
+    "Whether the team has engineering or product-development responsibilities that would make Linear more valuable"
+  ],
+  "recommendation": {
+    "choice": "Asana",
+    "reason": "Asana is the strongest overall fit for a small remote executive team because it combines structured task management, executive reporting, project visibility, workflow automation, and cross-functional collaboration without being primarily designed for software development.",
+    "confidence": "Moderate",
+    "caveat": "The recommendation is based on documented capabilities and fit against the stated requirements, not on a controlled user survey or hands-on trial."
+  },
+  "next_action": "Run a 7-day pilot using the same sample executive workflow in Asana and Notion, then compare setup effort, task adoption, reporting quality, documentation needs, and integration with the team's existing tools."
+}
